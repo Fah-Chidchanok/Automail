@@ -1,0 +1,246 @@
+{
+    "message": "success",
+    "data": {
+        "id": 309,
+        "transactionNo": "241010-000034",
+        "mCardNo": "7102350000594029",
+        "mCardTel": "0922801197",
+        "saleAmount": 15000000,
+        "createdBy": 523,
+        "updatedBy": 523,
+        "createdAt": "2024-10-10T06:34:28.211Z",
+        "updatedAt": "2024-10-10T06:34:28.211Z",
+        "orderGroups": [
+            {
+                "id": 566,
+                "orderId": 309,
+                "earnPoint": 120000,
+                "burnPoint": null,
+                "burnDiscount": null,
+                "saleAmount": 15000000,
+                "createdBy": null,
+                "createdAt": "2024-10-10T06:34:28.211Z",
+                "updatedAt": "2024-10-10T06:34:28.211Z",
+                "orderTransactions": [
+                    {
+                        "id": 565,
+                        "orderGroupId": 566,
+                        "orderBillId": 335,
+                        "transactionRunning": "241010-000034-01",
+                        "promotionId": 57,
+                        "campaignId": 15,
+                        "branchId": null,
+                        "mechanicId": 1,
+                        "mechanicCondition": 125,
+                        "mechanicValue": 1,
+                        "type": "earn",
+                        "exchangeRate": 0.125,
+                        "refCardNo": null,
+                        "earnPoint": 120000,
+                        "burnPoint": null,
+                        "burnDiscount": null,
+                        "remarks": null,
+                        "status": "completed",
+                        "createdBy": "523",
+                        "updatedBy": "523",
+                        "createdAt": "2024-10-10T06:34:28.211Z",
+                        "updatedAt": "2024-10-10T06:34:28.318Z",
+                        "transactionDate": "2024-10-10",
+                        "transactionTime": "13:34:28",
+                        "orderBill": {
+                            "id": 335,
+                            "orderTransactionId": null,
+                            "orderId": 309,
+                            "branchId": 2019,
+                            "billNo": "",
+                            "refCardNo": null,
+                            "saleAmount": 15000000,
+                            "createdBy": "523",
+                            "transactionDate": "2024-10-10",
+                            "transactionTime": "13:00:00",
+                            "netAmount": 15000000,
+                            "createdAt": "2024-10-10T06:34:28.306Z",
+                            "updatedAt": "2024-10-10T06:34:28.306Z",
+                            "branch": {
+                                "id": 2019,
+                                "nameEn": "QA-Gucci - Emporium",
+                                "nameTh": "QA-กุชชี่ - เอ็มโพเรียม",
+                                "brand": {
+                                    "id": 1301,
+                                    "nameEn": "QA-Gucci",
+                                    "nameTh": "QA-กุชชี่"
+                                },
+                                "mall": {
+                                    "id": 22,
+                                    "nameEn": "Emquartier",
+                                    "nameTh": "เอ็มควอเทียร์",
+                                    "code": "17"
+                                },
+                                "vendor": {
+                                    "id": 773,
+                                    "code": "DOP05",
+                                    "nameTh": "QA-บริษัท Luxury (QA)",
+                                    "nameEn": "QA-Luxury (QA) Company",
+                                    "taxId": "1122334455611",
+                                    "paymentTy": "net",
+                                    "isDisplay": false,
+                                    "status": "active",
+                                    "createdBy": 494,
+                                    "updatedBy": 494,
+                                    "createdAt": "2024-10-09T11:31:57.120Z",
+                                    "updatedAt": "2024-10-09T13:03:36.549Z"
+                                }
+                            }
+                        },
+                        "orderSubsidizes": [
+                            {
+                                "id": 850,
+                                "orderTransactionI": 565,
+                                "subsidizeId": 2,
+                                "budgetProposalId": 15,
+                                "point": 120000,
+                                "price": 120,
+                                "subsidizeValue": 1,
+                                "createdAt": "2024-10-10T06:34:28.211Z",
+                                "updatedAt": "2024-10-10T06:34:28.211Z",
+                                "subsidize": {
+                                    "id": 2,
+                                    "name": "BU1",
+                                    "status": "active",
+                                    "created": "2024-07-19T09:35:51.867Z",
+                                    "updated": "2024-07-19T09:35:51.867Z",
+                                    "code": "bu1",
+                                    "type": "bu"
+                                },
+                                "budget": {
+                                    "id": 15,
+                                    "runningNo": "BG240015",
+                                    "name": "[QA] For QA only",
+                                    "type": "cca",
+                                    "budgetNo": "123456789",
+                                    "proposalNo": "",
+                                    "amount": 10000000,
+                                    "remain": 9997559.480000002,
+                                    "usedBudget": 2440.52,
+                                    "startDate": "2024-09-30T17:00:00.000Z",
+                                    "endDate": "2024-12-30T17:00:00.000Z",
+                                    "status": "active",
+                                    "createdBy": 496,
+                                    "updatedBy": 496,
+                                    "createdAt": "2024-10-09T16:12:46.016Z",
+                                    "updatedAt": "2024-10-10T04:27:27.241Z"
+                                }
+                            }
+                        ],
+                        "orderTransactionLogs": [
+                            {
+                                "createdAt": "2024-10-10T06:34:29.912Z",
+                                "updatedAt": "2024-10-10T06:34:29.912Z",
+                                "id": 548,
+                                "orderTransactionId": 565,
+                                "rawResponse": {
+                                    "cardType": "35",
+                                    "respCode": 201,
+                                    "receiptNo": "MP24100000446",
+                                    "mcardNumber": "7102350000594029",
+                                    "respMessage": "Success",
+                                    "respDateTime": "2024-10-10T06:34:29+07:00",
+                                    "cardExpiryDate": "999912",
+                                    "referenceNumber": "241010-000034-01",
+                                    "cardPointExpiryAmt": 0,
+                                    "cardPointBalanceAmt": 217855,
+                                    "cardPointExpiryDate": "20241231"
+                                },
+                                "respDateTime": "2024-10-10T06:34:29+07:00",
+                                "respCode": 201,
+                                "respMessage": "Success",
+                                "receiptNo": "MP24100000446"
+                            }
+                        ],
+                        "orderGwpRelations": [],
+                        "promotion": {
+                            "id": 57,
+                            "priority": 37,
+                            "name": "[QA][EAx1] LUXE HALL 125 THB = 1 PTS",
+                            "type": "earn",
+                            "mechanicId": 1,
+                            "mechanicCondition": 125,
+                            "mechanicValue": 1,
+                            "exchangeRate": 0.125,
+                            "isMultipleBill": null,
+                            "isSpendingPromotion": null,
+                            "isSpendingBrand": null,
+                            "isSpendingBranch": null,
+                            "isSpendingCustomerPromo": null,
+                            "isSpendingCustomerBrand": null,
+                            "isSpendingCustomerBranc": null,
+                            "isMaxLimitPromotion": null,
+                            "isMaxLimitBrand": null,
+                            "isMaxLimitBranch": null,
+                            "isMaxLimitCustomerPromo": null,
+                            "isMaxLimitCustomerBrand": null,
+                            "isMaxLimitCustomerBranc": null,
+                            "isLimitPromotion": null,
+                            "isLimitBrand": null,
+                            "isLimitBranch": null,
+                            "isLimitCustomerPromotio": null,
+                            "isLimitCustomerBrand": null,
+                            "isLimitCustomerBranch": null,
+                            "status": "active",
+                            "createdBy": null,
+                            "updatedBy": 496,
+                            "isJoinOther": null,
+                            "isNextStep": null,
+                            "code": "PM240033",
+                            "mCard": [
+                                "m_card",
+                                "prestige",
+                                "premium",
+                                "scarlet",
+                                "vip"
+                            ],
+                            "mPower": [
+                                "white",
+                                "red",
+                                "blue",
+                                "black"
+                            ],
+                            "createdAt": "2024-10-09T17:33:52.021Z",
+                            "updatedAt": "2024-10-10T03:16:48.515Z",
+                            "mechanic": {
+                                "id": 1,
+                                "type": "earn",
+                                "status": "active",
+                                "nameTh": "รับคะแนน M Point จากทุกๆ  ยอดซื้อ",
+                                "nameEn": "รับคะแนน M Point จากทุกๆ  ยอดซื้อ",
+                                "createdAt": "2024-07-19T06:55:29.699Z",
+                                "updatedAt": "2024-07-19T06:55:29.700Z"
+                            }
+                        },
+                        "campaign": {
+                            "id": 15,
+                            "name": "Doppio - We Build and Serve Expertise",
+                            "status": "active",
+                            "startDate": "2024-09-30T17:00:00.000Z",
+                            "endDate": "2024-12-30T17:00:00.000Z",
+                            "isBurnBeforeEarn": false,
+                            "createdBy": 496,
+                            "updatedBy": 496,
+                            "code": null,
+                            "createdAt": "2024-10-06T11:25:49.275Z",
+                            "updatedAt": "2024-10-10T04:27:31.021Z"
+                        }
+                    }
+                ]
+            }
+        ],
+        "ownerUpdatedBy": {
+            "id": 523,
+            "name": "ชิดชนก non tmg"
+        },
+        "ownerCreatedBy": {
+            "id": 523,
+            "name": "ชิดชนก non tmg"
+        }
+    }
+}
