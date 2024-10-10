@@ -1,0 +1,246 @@
+{
+    "message": "success",
+    "data": {
+        "id": 327,
+        "transactionNo": "241010-000052",
+        "mCardNo": "7102100560002024",
+        "mCardTel": "0837833386",
+        "saleAmount": 663,
+        "createdBy": 537,
+        "updatedBy": 537,
+        "createdAt": "2024-10-10T07:00:58.128Z",
+        "updatedAt": "2024-10-10T07:00:58.128Z",
+        "orderGroups": [
+            {
+                "id": 587,
+                "orderId": 327,
+                "earnPoint": null,
+                "burnPoint": 400,
+                "burnDiscount": 50,
+                "saleAmount": 663,
+                "createdBy": null,
+                "createdAt": "2024-10-10T07:00:58.128Z",
+                "updatedAt": "2024-10-10T07:00:58.128Z",
+                "orderTransactions": [
+                    {
+                        "id": 586,
+                        "orderGroupId": 587,
+                        "orderBillId": 353,
+                        "transactionRunning": "241010-000052-01",
+                        "promotionId": 53,
+                        "campaignId": 15,
+                        "branchId": null,
+                        "mechanicId": 7,
+                        "mechanicCondition": 400,
+                        "mechanicValue": 50,
+                        "type": "burn",
+                        "exchangeRate": 0.125,
+                        "refCardNo": null,
+                        "earnPoint": null,
+                        "burnPoint": 400,
+                        "burnDiscount": 50,
+                        "remarks": null,
+                        "status": "completed",
+                        "createdBy": "537",
+                        "updatedBy": "537",
+                        "createdAt": "2024-10-10T07:00:58.128Z",
+                        "updatedAt": "2024-10-10T07:00:58.509Z",
+                        "transactionDate": "2024-10-10",
+                        "transactionTime": "14:00:58",
+                        "orderBill": {
+                            "id": 353,
+                            "orderTransactionId": null,
+                            "orderId": 327,
+                            "branchId": 2012,
+                            "billNo": null,
+                            "refCardNo": null,
+                            "saleAmount": 663,
+                            "createdBy": "537",
+                            "transactionDate": null,
+                            "transactionTime": null,
+                            "netAmount": 613,
+                            "createdAt": "2024-10-10T07:00:58.422Z",
+                            "updatedAt": "2024-10-10T07:00:58.422Z",
+                            "branch": {
+                                "id": 2012,
+                                "nameEn": null,
+                                "nameTh": null,
+                                "brand": {
+                                    "id": 1299,
+                                    "nameEn": "QA-Wellness",
+                                    "nameTh": "QA-เวลเนส"
+                                },
+                                "mall": {
+                                    "id": 24,
+                                    "nameEn": "Emporium",
+                                    "nameTh": "เอ็มโพเรียม",
+                                    "code": "9"
+                                },
+                                "vendor": {
+                                    "id": 771,
+                                    "code": "DOP03",
+                                    "nameTh": "QA-Super Massive Company",
+                                    "nameEn": "QA-Super Massive Company",
+                                    "taxId": "1122334455669",
+                                    "paymentTy": "net",
+                                    "isDisplay": false,
+                                    "status": "active",
+                                    "createdBy": 494,
+                                    "updatedBy": 494,
+                                    "createdAt": "2024-10-09T11:28:55.978Z",
+                                    "updatedAt": "2024-10-09T12:36:29.910Z"
+                                }
+                            }
+                        },
+                        "orderSubsidizes": [
+                            {
+                                "id": 891,
+                                "orderTransactionI": 586,
+                                "subsidizeId": 1,
+                                "budgetProposalId": 15,
+                                "point": 400,
+                                "price": 50,
+                                "subsidizeValue": 50,
+                                "createdAt": "2024-10-10T07:00:58.128Z",
+                                "updatedAt": "2024-10-10T07:00:58.128Z",
+                                "subsidize": {
+                                    "id": 1,
+                                    "name": "TMG",
+                                    "status": "active",
+                                    "created": "2024-07-19T09:35:37.083Z",
+                                    "updated": "2024-07-19T09:35:37.083Z",
+                                    "code": "tmg",
+                                    "type": "tmg"
+                                },
+                                "budget": {
+                                    "id": 15,
+                                    "runningNo": "BG240015",
+                                    "name": "[QA] For QA only",
+                                    "type": "cca",
+                                    "budgetNo": "123456789",
+                                    "proposalNo": "",
+                                    "amount": 10000000,
+                                    "remain": 9994097.420000002,
+                                    "usedBudget": 5902.58,
+                                    "startDate": "2024-09-30T17:00:00.000Z",
+                                    "endDate": "2024-12-30T17:00:00.000Z",
+                                    "status": "active",
+                                    "createdBy": 496,
+                                    "updatedBy": 496,
+                                    "createdAt": "2024-10-09T16:12:46.016Z",
+                                    "updatedAt": "2024-10-10T04:27:27.241Z"
+                                }
+                            }
+                        ],
+                        "orderTransactionLogs": [
+                            {
+                                "createdAt": "2024-10-10T07:01:00.612Z",
+                                "updatedAt": "2024-10-10T07:01:00.612Z",
+                                "id": 569,
+                                "orderTransactionId": 586,
+                                "rawResponse": {
+                                    "cardType": "10",
+                                    "respCode": 201,
+                                    "receiptNo": "DP24100000240",
+                                    "mcardNumber": "7102100560002024",
+                                    "respMessage": "Success",
+                                    "respDateTime": "2024-10-10T07:00:59+07:00",
+                                    "cardExpiryDate": "202412",
+                                    "referenceNumber": "241010-000052-01",
+                                    "cardPointExpiryAmt": 0,
+                                    "cardPointBalanceAmt": 238263,
+                                    "cardPointExpiryDate": "20241231"
+                                },
+                                "respDateTime": "2024-10-10T07:00:59+07:00",
+                                "respCode": 201,
+                                "respMessage": "Success",
+                                "receiptNo": "DP24100000240"
+                            }
+                        ],
+                        "orderGwpRelations": [],
+                        "promotion": {
+                            "id": 53,
+                            "priority": 33,
+                            "name": "[QA][BU_DIS50THB] PARTNER_MER-C BURN 400 PTS = 50 THB",
+                            "type": "burn",
+                            "mechanicId": 7,
+                            "mechanicCondition": 400,
+                            "mechanicValue": 50,
+                            "exchangeRate": 0.125,
+                            "isMultipleBill": false,
+                            "isSpendingPromotion": null,
+                            "isSpendingBrand": null,
+                            "isSpendingBranch": null,
+                            "isSpendingCustomerPromo": null,
+                            "isSpendingCustomerBrand": null,
+                            "isSpendingCustomerBranc": null,
+                            "isMaxLimitPromotion": null,
+                            "isMaxLimitBrand": null,
+                            "isMaxLimitBranch": null,
+                            "isMaxLimitCustomerPromo": null,
+                            "isMaxLimitCustomerBrand": null,
+                            "isMaxLimitCustomerBranc": null,
+                            "isLimitPromotion": null,
+                            "isLimitBrand": null,
+                            "isLimitBranch": null,
+                            "isLimitCustomerPromotio": null,
+                            "isLimitCustomerBrand": null,
+                            "isLimitCustomerBranch": null,
+                            "status": "active",
+                            "createdBy": null,
+                            "updatedBy": 496,
+                            "isJoinOther": true,
+                            "isNextStep": true,
+                            "code": "PM240030",
+                            "mCard": [
+                                "m_card",
+                                "prestige",
+                                "premium",
+                                "scarlet",
+                                "vip"
+                            ],
+                            "mPower": [
+                                "white",
+                                "red",
+                                "blue",
+                                "black"
+                            ],
+                            "createdAt": "2024-10-09T16:35:51.027Z",
+                            "updatedAt": "2024-10-10T04:26:14.706Z",
+                            "mechanic": {
+                                "id": 7,
+                                "type": "burn",
+                                "status": "active",
+                                "nameTh": "แลกคะแนน  M Point เป็นส่วนลดเงินสด",
+                                "nameEn": "แลกคะแนน  M Point เป็นส่วนลดเงินสด",
+                                "createdAt": "2024-07-19T06:57:34.354Z",
+                                "updatedAt": "2024-07-19T06:57:34.354Z"
+                            }
+                        },
+                        "campaign": {
+                            "id": 15,
+                            "name": "Doppio - We Build and Serve Expertise",
+                            "status": "active",
+                            "startDate": "2024-09-30T17:00:00.000Z",
+                            "endDate": "2024-12-30T17:00:00.000Z",
+                            "isBurnBeforeEarn": false,
+                            "createdBy": 496,
+                            "updatedBy": 496,
+                            "code": null,
+                            "createdAt": "2024-10-06T11:25:49.275Z",
+                            "updatedAt": "2024-10-10T04:27:31.021Z"
+                        }
+                    }
+                ]
+            }
+        ],
+        "ownerUpdatedBy": {
+            "id": 537,
+            "name": "Gift non tmg"
+        },
+        "ownerCreatedBy": {
+            "id": 537,
+            "name": "Gift non tmg"
+        }
+    }
+}
