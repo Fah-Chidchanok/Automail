@@ -1,0 +1,322 @@
+{
+    "message": "success",
+    "data": {
+        "id": 301,
+        "transactionNo": "241010-000026",
+        "mCardNo": "7102100560002024",
+        "mCardTel": "0837833386",
+        "saleAmount": 1436.54,
+        "createdBy": 537,
+        "updatedBy": 537,
+        "createdAt": "2024-10-10T06:23:10.268Z",
+        "updatedAt": "2024-10-10T06:23:10.268Z",
+        "orderGroups": [
+            {
+                "id": 558,
+                "orderId": 301,
+                "earnPoint": null,
+                "burnPoint": 1436,
+                "burnDiscount": 287.2,
+                "saleAmount": 1436.54,
+                "createdBy": null,
+                "createdAt": "2024-10-10T06:23:10.268Z",
+                "updatedAt": "2024-10-10T06:23:10.268Z",
+                "orderTransactions": [
+                    {
+                        "id": 557,
+                        "orderGroupId": 558,
+                        "orderBillId": 327,
+                        "transactionRunning": "241010-000026-01",
+                        "promotionId": 52,
+                        "campaignId": 15,
+                        "branchId": null,
+                        "mechanicId": 4,
+                        "mechanicCondition": 1,
+                        "mechanicValue": 20,
+                        "type": "burn",
+                        "exchangeRate": 0.125,
+                        "refCardNo": null,
+                        "earnPoint": null,
+                        "burnPoint": 1436,
+                        "burnDiscount": 287.2,
+                        "remarks": null,
+                        "status": "completed",
+                        "createdBy": "537",
+                        "updatedBy": "537",
+                        "createdAt": "2024-10-10T06:23:10.268Z",
+                        "updatedAt": "2024-10-10T06:23:10.520Z",
+                        "transactionDate": "2024-10-10",
+                        "transactionTime": "13:23:10",
+                        "orderBill": {
+                            "id": 327,
+                            "orderTransactionId": null,
+                            "orderId": 301,
+                            "branchId": 2008,
+                            "billNo": null,
+                            "refCardNo": null,
+                            "saleAmount": 1436.54,
+                            "createdBy": "537",
+                            "transactionDate": null,
+                            "transactionTime": null,
+                            "netAmount": 1149.34,
+                            "createdAt": "2024-10-10T06:23:10.513Z",
+                            "updatedAt": "2024-10-10T06:23:10.513Z",
+                            "branch": {
+                                "id": 2008,
+                                "nameEn": null,
+                                "nameTh": null,
+                                "brand": {
+                                    "id": 1307,
+                                    "nameEn": "Lucky All-QA",
+                                    "nameTh": "ลัคกี้ออล-QA"
+                                },
+                                "mall": {
+                                    "id": 26,
+                                    "nameEn": "The Mall Korat",
+                                    "nameTh": "เดอะมอลล์ โคราช",
+                                    "code": "10"
+                                },
+                                "vendor": {
+                                    "id": 770,
+                                    "code": "DOP02",
+                                    "nameTh": "QA-บริษัท ดอบบี้ ",
+                                    "nameEn": "QA-Dobby Company",
+                                    "taxId": "1122334455668",
+                                    "paymentTy": "pay",
+                                    "isDisplay": false,
+                                    "status": "active",
+                                    "createdBy": 494,
+                                    "updatedBy": 494,
+                                    "createdAt": "2024-10-09T11:28:01.519Z",
+                                    "updatedAt": "2024-10-09T12:36:41.852Z"
+                                }
+                            }
+                        },
+                        "orderSubsidizes": [
+                            {
+                                "id": 832,
+                                "orderTransactionI": 557,
+                                "subsidizeId": 4,
+                                "budgetProposalId": 15,
+                                "point": 1436,
+                                "price": 35.9,
+                                "subsidizeValue": 2.5,
+                                "createdAt": "2024-10-10T06:23:10.268Z",
+                                "updatedAt": "2024-10-10T06:23:10.268Z",
+                                "subsidize": {
+                                    "id": 4,
+                                    "name": "Vendor",
+                                    "status": "active",
+                                    "created": "2024-07-19T09:36:04.788Z",
+                                    "updated": "2024-07-19T09:36:19.261Z",
+                                    "code": "vendor",
+                                    "type": "vendor"
+                                },
+                                "budget": {
+                                    "id": 15,
+                                    "runningNo": "BG240015",
+                                    "name": "[QA] For QA only",
+                                    "type": "cca",
+                                    "budgetNo": "123456789",
+                                    "proposalNo": "",
+                                    "amount": 10000000,
+                                    "remain": 9997980.270000001,
+                                    "usedBudget": 2019.73,
+                                    "startDate": "2024-09-30T17:00:00.000Z",
+                                    "endDate": "2024-12-30T17:00:00.000Z",
+                                    "status": "active",
+                                    "createdBy": 496,
+                                    "updatedBy": 496,
+                                    "createdAt": "2024-10-09T16:12:46.016Z",
+                                    "updatedAt": "2024-10-10T04:27:27.241Z"
+                                }
+                            },
+                            {
+                                "id": 833,
+                                "orderTransactionI": 557,
+                                "subsidizeId": 2,
+                                "budgetProposalId": 15,
+                                "point": 1436,
+                                "price": 71.8,
+                                "subsidizeValue": 5,
+                                "createdAt": "2024-10-10T06:23:10.268Z",
+                                "updatedAt": "2024-10-10T06:23:10.268Z",
+                                "subsidize": {
+                                    "id": 2,
+                                    "name": "BU1",
+                                    "status": "active",
+                                    "created": "2024-07-19T09:35:51.867Z",
+                                    "updated": "2024-07-19T09:35:51.867Z",
+                                    "code": "bu1",
+                                    "type": "bu"
+                                },
+                                "budget": {
+                                    "id": 15,
+                                    "runningNo": "BG240015",
+                                    "name": "[QA] For QA only",
+                                    "type": "cca",
+                                    "budgetNo": "123456789",
+                                    "proposalNo": "",
+                                    "amount": 10000000,
+                                    "remain": 9997980.270000001,
+                                    "usedBudget": 2019.73,
+                                    "startDate": "2024-09-30T17:00:00.000Z",
+                                    "endDate": "2024-12-30T17:00:00.000Z",
+                                    "status": "active",
+                                    "createdBy": 496,
+                                    "updatedBy": 496,
+                                    "createdAt": "2024-10-09T16:12:46.016Z",
+                                    "updatedAt": "2024-10-10T04:27:27.241Z"
+                                }
+                            },
+                            {
+                                "id": 834,
+                                "orderTransactionI": 557,
+                                "subsidizeId": 1,
+                                "budgetProposalId": 15,
+                                "point": 1436,
+                                "price": 179.5,
+                                "subsidizeValue": 12.5,
+                                "createdAt": "2024-10-10T06:23:10.268Z",
+                                "updatedAt": "2024-10-10T06:23:10.268Z",
+                                "subsidize": {
+                                    "id": 1,
+                                    "name": "TMG",
+                                    "status": "active",
+                                    "created": "2024-07-19T09:35:37.083Z",
+                                    "updated": "2024-07-19T09:35:37.083Z",
+                                    "code": "tmg",
+                                    "type": "tmg"
+                                },
+                                "budget": {
+                                    "id": 15,
+                                    "runningNo": "BG240015",
+                                    "name": "[QA] For QA only",
+                                    "type": "cca",
+                                    "budgetNo": "123456789",
+                                    "proposalNo": "",
+                                    "amount": 10000000,
+                                    "remain": 9997980.270000001,
+                                    "usedBudget": 2019.73,
+                                    "startDate": "2024-09-30T17:00:00.000Z",
+                                    "endDate": "2024-12-30T17:00:00.000Z",
+                                    "status": "active",
+                                    "createdBy": 496,
+                                    "updatedBy": 496,
+                                    "createdAt": "2024-10-09T16:12:46.016Z",
+                                    "updatedAt": "2024-10-10T04:27:27.241Z"
+                                }
+                            }
+                        ],
+                        "orderTransactionLogs": [
+                            {
+                                "createdAt": "2024-10-10T06:23:12.212Z",
+                                "updatedAt": "2024-10-10T06:23:12.212Z",
+                                "id": 540,
+                                "orderTransactionId": 557,
+                                "rawResponse": {
+                                    "cardType": "10",
+                                    "respCode": 201,
+                                    "receiptNo": "DP24100000230",
+                                    "mcardNumber": "7102100560002024",
+                                    "respMessage": "Success",
+                                    "respDateTime": "2024-10-10T06:23:11+07:00",
+                                    "cardExpiryDate": "202412",
+                                    "referenceNumber": "241010-000026-01",
+                                    "cardPointExpiryAmt": 0,
+                                    "cardPointBalanceAmt": 4049,
+                                    "cardPointExpiryDate": "20241231"
+                                },
+                                "respDateTime": "2024-10-10T06:23:11+07:00",
+                                "respCode": 201,
+                                "respMessage": "Success",
+                                "receiptNo": "DP24100000230"
+                            }
+                        ],
+                        "orderGwpRelations": [],
+                        "promotion": {
+                            "id": 52,
+                            "priority": 32,
+                            "name": "[QA][BU_DIS20%] EXTRA PARTNER MERBใช้คะแนนแลกรับส่วนลด 20%",
+                            "type": "burn",
+                            "mechanicId": 4,
+                            "mechanicCondition": 1,
+                            "mechanicValue": 20,
+                            "exchangeRate": 0.125,
+                            "isMultipleBill": null,
+                            "isSpendingPromotion": null,
+                            "isSpendingBrand": null,
+                            "isSpendingBranch": null,
+                            "isSpendingCustomerPromo": null,
+                            "isSpendingCustomerBrand": null,
+                            "isSpendingCustomerBranc": null,
+                            "isMaxLimitPromotion": null,
+                            "isMaxLimitBrand": null,
+                            "isMaxLimitBranch": null,
+                            "isMaxLimitCustomerPromo": null,
+                            "isMaxLimitCustomerBrand": null,
+                            "isMaxLimitCustomerBranc": null,
+                            "isLimitPromotion": null,
+                            "isLimitBrand": null,
+                            "isLimitBranch": null,
+                            "isLimitCustomerPromotio": null,
+                            "isLimitCustomerBrand": null,
+                            "isLimitCustomerBranch": null,
+                            "status": "active",
+                            "createdBy": null,
+                            "updatedBy": 496,
+                            "isJoinOther": true,
+                            "isNextStep": true,
+                            "code": "PM240029",
+                            "mCard": [
+                                "m_card",
+                                "prestige",
+                                "premium",
+                                "scarlet",
+                                "vip"
+                            ],
+                            "mPower": [
+                                "white",
+                                "red",
+                                "blue",
+                                "black"
+                            ],
+                            "createdAt": "2024-10-09T16:26:03.227Z",
+                            "updatedAt": "2024-10-10T04:25:35.422Z",
+                            "mechanic": {
+                                "id": 4,
+                                "type": "burn",
+                                "status": "active",
+                                "nameTh": "แลกคะแนน  M Point เท่ายอดซื้อ เป็นส่วนลด %",
+                                "nameEn": "แลกคะแนน  M Point เท่ายอดซื้อ เป็นส่วนลด %",
+                                "createdAt": "2024-07-19T06:56:35.577Z",
+                                "updatedAt": "2024-07-19T06:56:35.577Z"
+                            }
+                        },
+                        "campaign": {
+                            "id": 15,
+                            "name": "Doppio - We Build and Serve Expertise",
+                            "status": "active",
+                            "startDate": "2024-09-30T17:00:00.000Z",
+                            "endDate": "2024-12-30T17:00:00.000Z",
+                            "isBurnBeforeEarn": false,
+                            "createdBy": 496,
+                            "updatedBy": 496,
+                            "code": null,
+                            "createdAt": "2024-10-06T11:25:49.275Z",
+                            "updatedAt": "2024-10-10T04:27:31.021Z"
+                        }
+                    }
+                ]
+            }
+        ],
+        "ownerUpdatedBy": {
+            "id": 537,
+            "name": "Gift non tmg"
+        },
+        "ownerCreatedBy": {
+            "id": 537,
+            "name": "Gift non tmg"
+        }
+    }
+}
