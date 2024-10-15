@@ -1,0 +1,277 @@
+{
+  "message": "success",
+  "data": {
+    "id": 457,
+    "transactionNo": "241015-000074",
+    "mCardNo": "7102100560014029",
+    "mCardTel": "0855554556",
+    "saleAmount": 25000,
+    "createdBy": 529,
+    "updatedBy": 529,
+    "createdAt": "2024-10-15T15:39:05.666Z",
+    "updatedAt": "2024-10-15T15:39:05.666Z",
+    "orderGroups": [
+      {
+        "id": 854,
+        "orderId": 457,
+        "earnPoint": 200,
+        "burnPoint": null,
+        "burnDiscount": null,
+        "saleAmount": 25000,
+        "createdBy": null,
+        "createdAt": "2024-10-15T15:39:05.667Z",
+        "updatedAt": "2024-10-15T15:39:05.667Z",
+        "orderTransactions": [
+          {
+            "id": 853,
+            "orderGroupId": 854,
+            "orderBillId": 501,
+            "transactionRunning": "241015-000074-01",
+            "promotionId": 57,
+            "campaignId": 15,
+            "branchId": null,
+            "mechanicId": 1,
+            "mechanicCondition": 125,
+            "mechanicValue": 1,
+            "type": "earn",
+            "exchangeRate": 0.125,
+            "refCardNo": null,
+            "earnPoint": 200,
+            "burnPoint": null,
+            "burnDiscount": null,
+            "remarks": null,
+            "status": "completed",
+            "createdBy": "529",
+            "updatedBy": "529",
+            "createdAt": "2024-10-15T15:39:05.667Z",
+            "updatedAt": "2024-10-15T15:39:05.731Z",
+            "transactionDate": "2024-10-15",
+            "transactionTime": "22:39:05",
+            "orderBill": {
+              "id": 501,
+              "orderTransactionId": null,
+              "orderId": 457,
+              "branchId": 2017,
+              "billNo": "",
+              "refCardNo": null,
+              "saleAmount": 25000,
+              "createdBy": "529",
+              "transactionDate": "2024-10-15",
+              "transactionTime": "22:45:00",
+              "netAmount": 25000,
+              "createdAt": "2024-10-15T15:39:05.717Z",
+              "updatedAt": "2024-10-15T15:39:05.717Z",
+              "branch": {
+                "id": 2017,
+                "nameEn": null,
+                "nameTh": null,
+                "brand": {
+                  "id": 1310,
+                  "nameEn": "QA-Doppio Gems",
+                  "nameTh": "QA-ดอปปิโอ้ Gems"
+                },
+                "mall": {
+                  "id": 24,
+                  "nameEn": "Emporium",
+                  "nameTh": "เอ็มโพเรียม",
+                  "code": "9"
+                },
+                "vendor": {
+                  "id": 773,
+                  "code": "DOP05",
+                  "nameTh": "QA-บริษัท Luxury (QA)",
+                  "nameEn": "QA-Luxury (QA) Company",
+                  "taxId": "1122334455611",
+                  "paymentTy": "net",
+                  "isDisplay": false,
+                  "status": "active",
+                  "createdBy": 494,
+                  "updatedBy": 494,
+                  "createdAt": "2024-10-09T11:31:57.120Z",
+                  "updatedAt": "2024-10-09T13:03:36.549Z"
+                }
+              }
+            },
+            "orderSubsidizes": [
+              {
+                "id": 1360,
+                "orderTransactionI": 853,
+                "subsidizeId": 2,
+                "budgetProposalId": 15,
+                "point": 200,
+                "price": 0.2,
+                "subsidizeValue": 1,
+                "createdAt": "2024-10-15T15:39:05.667Z",
+                "updatedAt": "2024-10-15T15:39:05.667Z",
+                "subsidize": {
+                  "id": 2,
+                  "name": "BU1",
+                  "status": "active",
+                  "created": "2024-07-19T09:35:51.867Z",
+                  "updated": "2024-07-19T09:35:51.867Z",
+                  "code": "bu1",
+                  "type": "bu"
+                },
+                "budget": {
+                  "id": 15,
+                  "runningNo": "BG240015",
+                  "name": "[QA] For QA only",
+                  "type": "cca",
+                  "budgetNo": "123456789",
+                  "proposalNo": "",
+                  "amount": 10000000,
+                  "remain": 9937136.020000001,
+                  "usedBudget": 62863.97999999999,
+                  "startDate": "2024-09-30T17:00:00.000Z",
+                  "endDate": "2024-12-30T17:00:00.000Z",
+                  "status": "active",
+                  "createdBy": 496,
+                  "updatedBy": 493,
+                  "createdAt": "2024-10-09T16:12:46.016Z",
+                  "updatedAt": "2024-10-15T03:29:12.619Z"
+                }
+              }
+            ],
+            "orderTransactionLogs": [
+              {
+                "createdAt": "2024-10-15T15:39:07.010Z",
+                "updatedAt": "2024-10-15T15:39:07.010Z",
+                "id": 864,
+                "orderTransactionId": 853,
+                "type": "earn",
+                "rawRequest": {
+                  "branch": 9,
+                  "vendor": {
+                    "code": "DOP05",
+                    "paymentMethod": "E"
+                  },
+                  "shopName": "QA-Doppio Gems",
+                  "promotion": {
+                    "campaignId": "PM240033",
+                    "campaignName": "[QA][EAx1] LUXE HALL 125 THB = 1 PTS",
+                    "isRealtimePointCal": "Y"
+                  },
+                  "subsidize": {
+                    "mcard": {
+                      "NormalPointTHB": 0.2,
+                      "NormalPercentage": 100
+                    },
+                    "vendor": {
+                      "NormalPointTHB": 0,
+                      "NormalPercentage": 0
+                    }
+                  },
+                  "saleAmount": 25000,
+                  "normalPoint": 200,
+                  "ratepointTHB": 0.125,
+                  "totalEarnPoint": 200,
+                  "transactionDate": "15-10-2024",
+                  "transactionTime": "22:39:05",
+                  "transactionReferenceNumber": "241015-000074-01"
+                },
+                "rawResponse": {
+                  "cardType": "10",
+                  "respCode": 201,
+                  "receiptNo": "MP24100000622",
+                  "mcardNumber": "7102100560014029",
+                  "respMessage": "Success",
+                  "respDateTime": "2024-10-15T15:39:06+07:00",
+                  "cardExpiryDate": "999912",
+                  "referenceNumber": "241015-000074-01",
+                  "cardPointExpiryAmt": 0,
+                  "cardPointBalanceAmt": 1632536,
+                  "cardPointExpiryDate": "20241231"
+                },
+                "respDateTime": "2024-10-15T15:39:06+07:00",
+                "respCode": 201,
+                "respMessage": "Success",
+                "receiptNo": "MP24100000622"
+              }
+            ],
+            "orderGwpRelations": [],
+            "promotion": {
+              "id": 57,
+              "priority": 37,
+              "name": "[QA][EAx1] LUXE HALL 125 THB = 1 PTS",
+              "type": "earn",
+              "mechanicId": 1,
+              "mechanicCondition": 125,
+              "mechanicValue": 1,
+              "exchangeRate": 0.125,
+              "isMultipleBill": null,
+              "isSpendingPromotion": null,
+              "isSpendingBrand": null,
+              "isSpendingBranch": null,
+              "isSpendingCustomerPromo": null,
+              "isSpendingCustomerBrand": null,
+              "isSpendingCustomerBranc": null,
+              "isMaxLimitPromotion": null,
+              "isMaxLimitBrand": null,
+              "isMaxLimitBranch": null,
+              "isMaxLimitCustomerPromo": null,
+              "isMaxLimitCustomerBrand": null,
+              "isMaxLimitCustomerBranc": null,
+              "isLimitPromotion": null,
+              "isLimitBrand": null,
+              "isLimitBranch": null,
+              "isLimitCustomerPromotio": null,
+              "isLimitCustomerBrand": null,
+              "isLimitCustomerBranch": null,
+              "status": "active",
+              "createdBy": null,
+              "updatedBy": 496,
+              "isJoinOther": null,
+              "isNextStep": null,
+              "code": "PM240033",
+              "mCard": [
+                "m_card",
+                "prestige",
+                "premium",
+                "scarlet",
+                "vip"
+              ],
+              "mPower": [
+                "white",
+                "red",
+                "blue",
+                "black"
+              ],
+              "createdAt": "2024-10-09T17:33:52.021Z",
+              "updatedAt": "2024-10-10T07:09:59.511Z",
+              "mechanic": {
+                "id": 1,
+                "type": "earn",
+                "status": "active",
+                "nameTh": "รับคะแนน M Point จากทุกๆ  ยอดซื้อ",
+                "nameEn": "รับคะแนน M Point จากทุกๆ  ยอดซื้อ",
+                "createdAt": "2024-07-19T06:55:29.699Z",
+                "updatedAt": "2024-07-19T06:55:29.700Z"
+              }
+            },
+            "campaign": {
+              "id": 15,
+              "name": "Doppio - We Build and Serve Expertise",
+              "status": "active",
+              "startDate": "2024-09-30T17:00:00.000Z",
+              "endDate": "2024-12-30T17:00:00.000Z",
+              "isBurnBeforeEarn": false,
+              "createdBy": 496,
+              "updatedBy": 542,
+              "code": null,
+              "createdAt": "2024-10-06T11:25:49.275Z",
+              "updatedAt": "2024-10-15T09:15:16.919Z"
+            }
+          }
+        ]
+      }
+    ],
+    "ownerUpdatedBy": {
+      "id": 529,
+      "name": "เอย Non tmg"
+    },
+    "ownerCreatedBy": {
+      "id": 529,
+      "name": "เอย Non tmg"
+    }
+  }
+}
