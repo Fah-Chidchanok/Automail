@@ -1,0 +1,1208 @@
+{
+  "message": "success",
+  "data": {
+    "id": 456,
+    "transactionNo": "241015-000073",
+    "mCardNo": "7102100560014029",
+    "mCardTel": "0855554556",
+    "saleAmount": 2500,
+    "createdBy": 529,
+    "updatedBy": 529,
+    "createdAt": "2024-10-15T15:34:14.219Z",
+    "updatedAt": "2024-10-15T15:34:14.219Z",
+    "orderGroups": [
+      {
+        "id": 850,
+        "orderId": 456,
+        "earnPoint": null,
+        "burnPoint": 2500,
+        "burnDiscount": 312.5,
+        "saleAmount": 2500,
+        "createdBy": null,
+        "createdAt": "2024-10-15T15:34:14.219Z",
+        "updatedAt": "2024-10-15T15:34:14.219Z",
+        "orderTransactions": [
+          {
+            "id": 849,
+            "orderGroupId": 850,
+            "orderBillId": 500,
+            "transactionRunning": "241015-000073-01",
+            "promotionId": 51,
+            "campaignId": 15,
+            "branchId": null,
+            "mechanicId": 4,
+            "mechanicCondition": 1,
+            "mechanicValue": 12.5,
+            "type": "burn",
+            "exchangeRate": 0.125,
+            "refCardNo": null,
+            "earnPoint": null,
+            "burnPoint": 2500,
+            "burnDiscount": 312.5,
+            "remarks": null,
+            "status": "completed",
+            "createdBy": "529",
+            "updatedBy": "529",
+            "createdAt": "2024-10-15T15:34:14.219Z",
+            "updatedAt": "2024-10-15T15:34:14.518Z",
+            "transactionDate": "2024-10-15",
+            "transactionTime": "22:34:14",
+            "orderBill": {
+              "id": 500,
+              "orderTransactionId": null,
+              "orderId": 456,
+              "branchId": 2000,
+              "billNo": null,
+              "refCardNo": null,
+              "saleAmount": 2500,
+              "createdBy": "529",
+              "transactionDate": null,
+              "transactionTime": null,
+              "netAmount": 2187.5,
+              "createdAt": "2024-10-15T15:34:14.507Z",
+              "updatedAt": "2024-10-15T15:34:14.507Z",
+              "branch": {
+                "id": 2000,
+                "nameEn": null,
+                "nameTh": null,
+                "brand": {
+                  "id": 1298,
+                  "nameEn": "QA-Sushi",
+                  "nameTh": "QA-ซูชิ"
+                },
+                "mall": {
+                  "id": 2,
+                  "nameEn": "Paragon",
+                  "nameTh": "พารากอน",
+                  "code": "11"
+                },
+                "vendor": {
+                  "id": 769,
+                  "code": "DOP01",
+                  "nameTh": "QA-บริษัท ด็อปปิโอ้ ",
+                  "nameEn": "QA-Doppio Company ",
+                  "taxId": "1122334455667",
+                  "paymentTy": "net",
+                  "isDisplay": false,
+                  "status": "active",
+                  "createdBy": 494,
+                  "updatedBy": 494,
+                  "createdAt": "2024-10-09T11:26:04.438Z",
+                  "updatedAt": "2024-10-09T12:36:51.321Z"
+                }
+              }
+            },
+            "orderSubsidizes": [
+              {
+                "id": 1353,
+                "orderTransactionI": 849,
+                "subsidizeId": 1,
+                "budgetProposalId": 15,
+                "point": 2500,
+                "price": 312.5,
+                "subsidizeValue": 12.5,
+                "createdAt": "2024-10-15T15:34:14.222Z",
+                "updatedAt": "2024-10-15T15:34:14.223Z",
+                "subsidize": {
+                  "id": 1,
+                  "name": "TMG",
+                  "status": "active",
+                  "created": "2024-07-19T09:35:37.083Z",
+                  "updated": "2024-07-19T09:35:37.083Z",
+                  "code": "tmg",
+                  "type": "tmg"
+                },
+                "budget": {
+                  "id": 15,
+                  "runningNo": "BG240015",
+                  "name": "[QA] For QA only",
+                  "type": "cca",
+                  "budgetNo": "123456789",
+                  "proposalNo": "",
+                  "amount": 10000000,
+                  "remain": 9937853.170000002,
+                  "usedBudget": 62146.82999999999,
+                  "startDate": "2024-09-30T17:00:00.000Z",
+                  "endDate": "2024-12-30T17:00:00.000Z",
+                  "status": "active",
+                  "createdBy": 496,
+                  "updatedBy": 493,
+                  "createdAt": "2024-10-09T16:12:46.016Z",
+                  "updatedAt": "2024-10-15T03:29:12.619Z"
+                }
+              }
+            ],
+            "orderTransactionLogs": [
+              {
+                "createdAt": "2024-10-15T15:34:15.716Z",
+                "updatedAt": "2024-10-15T15:34:15.716Z",
+                "id": 860,
+                "orderTransactionId": 849,
+                "type": "burn",
+                "rawRequest": {
+                  "vendor": {
+                    "code": "DOP01",
+                    "paymentMethod": "E",
+                    "subsidizeAmount": 0,
+                    "subsidizePercentage": 0
+                  },
+                  "shopName": "QA-Sushi",
+                  "promotion": {
+                    "campaignId": "PM240028",
+                    "campaignName": "[QA][BU_DIS12.5%] PARTNER_SHOPPING ใช้คะแนนแลกรับส่วนลด 12.5%"
+                  },
+                  "saleAmount": 2500,
+                  "shopBranch": 11,
+                  "terminalId": "MBiz2",
+                  "pointAmount": 2500,
+                  "netSaleAmount": 2187.5,
+                  "redemptionDate": "2024-10-15",
+                  "redemptionTime": "22:34:14",
+                  "redemptionType": "DP",
+                  "referenceNumber": "241015-000073-01",
+                  "basicPointAmount": 0,
+                  "webReferenceNumber": "MBIZ8b2e8ca1773c49",
+                  "totalDiscountAmount": 312.5,
+                  "basicPointPercentage": 0,
+                  "tmgSubsidizeExtraPointAmount": 312.5,
+                  "tmgSubsidizeExtraPointPercentage": 12.5
+                },
+                "rawResponse": {
+                  "cardType": "10",
+                  "respCode": 201,
+                  "receiptNo": "DP24100000354",
+                  "mcardNumber": "7102100560014029",
+                  "respMessage": "Success",
+                  "respDateTime": "2024-10-15T15:34:15+07:00",
+                  "cardExpiryDate": "999912",
+                  "referenceNumber": "241015-000073-01",
+                  "cardPointExpiryAmt": 0,
+                  "cardPointBalanceAmt": 1633979,
+                  "cardPointExpiryDate": "20241231"
+                },
+                "respDateTime": "2024-10-15T15:34:15+07:00",
+                "respCode": 201,
+                "respMessage": "Success",
+                "receiptNo": "DP24100000354"
+              }
+            ],
+            "orderGwpRelations": [],
+            "promotion": {
+              "id": 51,
+              "priority": 31,
+              "name": "[QA][BU_DIS12.5%] PARTNER_SHOPPING ใช้คะแนนแลกรับส่วนลด 12.5%",
+              "type": "burn",
+              "mechanicId": 4,
+              "mechanicCondition": 1,
+              "mechanicValue": 12.5,
+              "exchangeRate": 0.125,
+              "isMultipleBill": null,
+              "isSpendingPromotion": null,
+              "isSpendingBrand": null,
+              "isSpendingBranch": null,
+              "isSpendingCustomerPromo": null,
+              "isSpendingCustomerBrand": null,
+              "isSpendingCustomerBranc": null,
+              "isMaxLimitPromotion": null,
+              "isMaxLimitBrand": null,
+              "isMaxLimitBranch": null,
+              "isMaxLimitCustomerPromo": null,
+              "isMaxLimitCustomerBrand": null,
+              "isMaxLimitCustomerBranc": null,
+              "isLimitPromotion": null,
+              "isLimitBrand": null,
+              "isLimitBranch": null,
+              "isLimitCustomerPromotio": null,
+              "isLimitCustomerBrand": null,
+              "isLimitCustomerBranch": null,
+              "status": "active",
+              "createdBy": null,
+              "updatedBy": 542,
+              "isJoinOther": true,
+              "isNextStep": true,
+              "code": "PM240028",
+              "mCard": [
+                "m_card",
+                "prestige",
+                "premium",
+                "scarlet",
+                "vip"
+              ],
+              "mPower": [
+                "white",
+                "red",
+                "blue",
+                "black"
+              ],
+              "createdAt": "2024-10-09T16:23:04.816Z",
+              "updatedAt": "2024-10-15T04:29:53.870Z",
+              "mechanic": {
+                "id": 4,
+                "type": "burn",
+                "status": "active",
+                "nameTh": "แลกคะแนน  M Point เท่ายอดซื้อ เป็นส่วนลด %",
+                "nameEn": "แลกคะแนน  M Point เท่ายอดซื้อ เป็นส่วนลด %",
+                "createdAt": "2024-07-19T06:56:35.577Z",
+                "updatedAt": "2024-07-19T06:56:35.577Z"
+              }
+            },
+            "campaign": {
+              "id": 15,
+              "name": "Doppio - We Build and Serve Expertise",
+              "status": "active",
+              "startDate": "2024-09-30T17:00:00.000Z",
+              "endDate": "2024-12-30T17:00:00.000Z",
+              "isBurnBeforeEarn": false,
+              "createdBy": 496,
+              "updatedBy": 542,
+              "code": null,
+              "createdAt": "2024-10-06T11:25:49.275Z",
+              "updatedAt": "2024-10-15T09:15:16.919Z"
+            }
+          }
+        ]
+      }
+    ],
+    "ownerUpdatedBy": {
+      "id": 529,
+      "name": "เอย Non tmg"
+    },
+    "ownerCreatedBy": {
+      "id": 529,
+      "name": "เอย Non tmg"
+    }
+  }
+}
+
+
+
+
+
+{
+  "message": "success",
+  "data": {
+    "id": 851,
+    "orderId": 456,
+    "earnPoint": null,
+    "burnPoint": 2000,
+    "burnDiscount": 400,
+    "saleAmount": 2187.5,
+    "createdBy": null,
+    "createdAt": "2024-10-15T15:35:25.412Z",
+    "updatedAt": "2024-10-15T15:35:25.412Z",
+    "order": {
+      "id": 456,
+      "transactionNo": "241015-000073",
+      "mCardNo": "7102100560014029",
+      "mCardTel": "0855554556",
+      "saleAmount": 2500,
+      "createdBy": 529,
+      "updatedBy": 529,
+      "createdAt": "2024-10-15T15:34:14.219Z",
+      "updatedAt": "2024-10-15T15:34:14.219Z"
+    },
+    "orderTransactions": [
+      {
+        "id": 850,
+        "orderGroupId": 851,
+        "orderBillId": 500,
+        "transactionRunning": "241015-000073-02",
+        "promotionId": 52,
+        "campaignId": 15,
+        "branchId": null,
+        "mechanicId": 4,
+        "mechanicCondition": 1,
+        "mechanicValue": 20,
+        "type": "burn",
+        "exchangeRate": 0.125,
+        "refCardNo": null,
+        "earnPoint": null,
+        "burnPoint": 2000,
+        "burnDiscount": 400,
+        "remarks": null,
+        "status": "completed",
+        "createdBy": "529",
+        "updatedBy": "529",
+        "createdAt": "2024-10-15T15:35:25.412Z",
+        "updatedAt": "2024-10-15T15:35:25.412Z",
+        "transactionDate": "2024-10-15",
+        "transactionTime": "22:35:25",
+        "orderBill": {
+          "id": 500,
+          "orderTransactionId": null,
+          "orderId": 456,
+          "branchId": 2000,
+          "billNo": null,
+          "refCardNo": null,
+          "saleAmount": 2500,
+          "createdBy": "529",
+          "transactionDate": null,
+          "transactionTime": null,
+          "netAmount": 1787.5,
+          "createdAt": "2024-10-15T15:34:14.507Z",
+          "updatedAt": "2024-10-15T15:35:25.405Z",
+          "branch": {
+            "id": 2000,
+            "nameEn": null,
+            "nameTh": null,
+            "brand": {
+              "id": 1298,
+              "nameEn": "QA-Sushi",
+              "nameTh": "QA-ซูชิ"
+            },
+            "mall": {
+              "id": 2,
+              "nameEn": "Paragon",
+              "nameTh": "พารากอน",
+              "code": "11"
+            },
+            "vendorProfile": {
+              "id": 769,
+              "code": "DOP01",
+              "nameTh": "QA-บริษัท ด็อปปิโอ้ ",
+              "nameEn": "QA-Doppio Company ",
+              "taxId": "1122334455667",
+              "paymentType": "net",
+              "isDisplayItem": false,
+              "status": "active",
+              "createdBy": 494,
+              "updatedBy": 494,
+              "createdAt": "2024-10-09T11:26:04.438Z",
+              "updatedAt": "2024-10-09T12:36:51.321Z"
+            }
+          }
+        },
+        "orderSubsidizes": [
+          {
+            "id": 1356,
+            "orderTransactionId": 850,
+            "subsidizeId": 1,
+            "budgetProposalId": 15,
+            "point": 1250,
+            "price": 250,
+            "subsidizeValue": 12.5,
+            "createdAt": "2024-10-15T15:35:25.418Z",
+            "updatedAt": "2024-10-15T15:35:25.418Z",
+            "subsidize": {
+              "id": 1,
+              "name": "TMG",
+              "status": "active",
+              "createdBy": 1,
+              "updatedBy": 1,
+              "createdAt": "2024-07-19T09:35:37.083Z",
+              "updatedAt": "2024-07-19T09:35:37.083Z",
+              "code": "tmg",
+              "type": "tmg"
+            },
+            "budgetProposal": {
+              "id": 15,
+              "runningNo": "BG240015",
+              "name": "[QA] For QA only",
+              "type": "cca",
+              "budgetNo": "123456789",
+              "proposalNo": "",
+              "amount": 10000000,
+              "remain": 9937540.670000002,
+              "usedBudget": 62459.32999999999,
+              "startDate": "2024-09-30T17:00:00.000Z",
+              "endDate": "2024-12-30T17:00:00.000Z",
+              "status": "active",
+              "createdBy": 496,
+              "updatedBy": 493,
+              "createdAt": "2024-10-09T16:12:46.016Z",
+              "updatedAt": "2024-10-15T03:29:12.619Z"
+            }
+          },
+          {
+            "id": 1355,
+            "orderTransactionId": 850,
+            "subsidizeId": 2,
+            "budgetProposalId": 15,
+            "point": 500,
+            "price": 100,
+            "subsidizeValue": 5,
+            "createdAt": "2024-10-15T15:35:25.418Z",
+            "updatedAt": "2024-10-15T15:35:25.418Z",
+            "subsidize": {
+              "id": 2,
+              "name": "BU1",
+              "status": "active",
+              "createdBy": 1,
+              "updatedBy": 1,
+              "createdAt": "2024-07-19T09:35:51.867Z",
+              "updatedAt": "2024-07-19T09:35:51.867Z",
+              "code": "bu1",
+              "type": "bu"
+            },
+            "budgetProposal": {
+              "id": 15,
+              "runningNo": "BG240015",
+              "name": "[QA] For QA only",
+              "type": "cca",
+              "budgetNo": "123456789",
+              "proposalNo": "",
+              "amount": 10000000,
+              "remain": 9937540.670000002,
+              "usedBudget": 62459.32999999999,
+              "startDate": "2024-09-30T17:00:00.000Z",
+              "endDate": "2024-12-30T17:00:00.000Z",
+              "status": "active",
+              "createdBy": 496,
+              "updatedBy": 493,
+              "createdAt": "2024-10-09T16:12:46.016Z",
+              "updatedAt": "2024-10-15T03:29:12.619Z"
+            }
+          },
+          {
+            "id": 1354,
+            "orderTransactionId": 850,
+            "subsidizeId": 4,
+            "budgetProposalId": 15,
+            "point": 250,
+            "price": 50,
+            "subsidizeValue": 2.5,
+            "createdAt": "2024-10-15T15:35:25.412Z",
+            "updatedAt": "2024-10-15T15:35:25.412Z",
+            "subsidize": {
+              "id": 4,
+              "name": "Vendor",
+              "status": "active",
+              "createdBy": 1,
+              "updatedBy": 1,
+              "createdAt": "2024-07-19T09:36:04.788Z",
+              "updatedAt": "2024-07-19T09:36:19.261Z",
+              "code": "vendor",
+              "type": "vendor"
+            },
+            "budgetProposal": {
+              "id": 15,
+              "runningNo": "BG240015",
+              "name": "[QA] For QA only",
+              "type": "cca",
+              "budgetNo": "123456789",
+              "proposalNo": "",
+              "amount": 10000000,
+              "remain": 9937540.670000002,
+              "usedBudget": 62459.32999999999,
+              "startDate": "2024-09-30T17:00:00.000Z",
+              "endDate": "2024-12-30T17:00:00.000Z",
+              "status": "active",
+              "createdBy": 496,
+              "updatedBy": 493,
+              "createdAt": "2024-10-09T16:12:46.016Z",
+              "updatedAt": "2024-10-15T03:29:12.619Z"
+            }
+          }
+        ],
+        "orderTransactionLogs": [
+          {
+            "createdAt": "2024-10-15T15:35:27.241Z",
+            "updatedAt": "2024-10-15T15:35:27.241Z",
+            "id": 861,
+            "orderTransactionId": 850,
+            "type": "burn",
+            "rawRequest": {
+              "vendor": {
+                "code": "DOP01",
+                "paymentMethod": "E",
+                "subsidizeAmount": 50,
+                "subsidizePercentage": 2.5
+              },
+              "shopName": "QA-Sushi",
+              "promotion": {
+                "campaignId": "PM240029",
+                "campaignName": "[QA][BU_DIS20%] EXTRA PARTNER MERBใช้คะแนนแลกรับส่วนลด 20%"
+              },
+              "saleAmount": 2500,
+              "shopBranch": 11,
+              "terminalId": "MBiz2",
+              "pointAmount": 2000,
+              "netSaleAmount": 2100,
+              "redemptionDate": "2024-10-15",
+              "redemptionTime": "22:35:25",
+              "redemptionType": "DP",
+              "referenceNumber": "241015-000073-02",
+              "basicPointAmount": 0,
+              "webReferenceNumber": "MBIZ058f551260095d",
+              "totalDiscountAmount": 400,
+              "basicPointPercentage": 0,
+              "tmgSubsidizeExtraPointAmount": 350,
+              "tmgSubsidizeExtraPointPercentage": 17.5
+            },
+            "rawResponse": {
+              "cardType": "10",
+              "respCode": 201,
+              "receiptNo": "DP24100000355",
+              "mcardNumber": "7102100560014029",
+              "respMessage": "Success",
+              "respDateTime": "2024-10-15T15:35:26+07:00",
+              "cardExpiryDate": "999912",
+              "referenceNumber": "241015-000073-02",
+              "cardPointExpiryAmt": 0,
+              "cardPointBalanceAmt": 1631979,
+              "cardPointExpiryDate": "20241231"
+            },
+            "respDateTime": "2024-10-15T15:35:26+07:00",
+            "respCode": 201,
+            "respMessage": "Success",
+            "receiptNo": "DP24100000355"
+          }
+        ],
+        "orderGwpRelations": [],
+        "promotion": {
+          "id": 52,
+          "priority": 32,
+          "name": "[QA][BU_DIS20%] EXTRA PARTNER MERBใช้คะแนนแลกรับส่วนลด 20%",
+          "type": "burn",
+          "mechanicId": 4,
+          "mechanicCondition": 1,
+          "mechanicValue": 20,
+          "exchangeRate": 0.125,
+          "isMultipleBill": null,
+          "isSpendingPromotion": null,
+          "isSpendingBrand": null,
+          "isSpendingBranch": null,
+          "isSpendingCustomerPromotion": null,
+          "isSpendingCustomerBrand": null,
+          "isSpendingCustomerBranch": null,
+          "isMaxLimitPromotion": null,
+          "isMaxLimitBrand": null,
+          "isMaxLimitBranch": null,
+          "isMaxLimitCustomerPromotion": null,
+          "isMaxLimitCustomerBrand": null,
+          "isMaxLimitCustomerBranch": null,
+          "isLimitPromotion": null,
+          "isLimitBrand": null,
+          "isLimitBranch": null,
+          "isLimitCustomerPromotion": null,
+          "isLimitCustomerBrand": null,
+          "isLimitCustomerBranch": null,
+          "status": "active",
+          "createdBy": null,
+          "updatedBy": 496,
+          "isJoinOther": true,
+          "isNextStep": true,
+          "code": "PM240029",
+          "mCard": [
+            "m_card",
+            "prestige",
+            "premium",
+            "scarlet",
+            "vip"
+          ],
+          "mPower": [
+            "white",
+            "red",
+            "blue",
+            "black"
+          ],
+          "createdAt": "2024-10-09T16:26:03.227Z",
+          "updatedAt": "2024-10-10T04:25:35.422Z",
+          "mechanic": {
+            "id": 4,
+            "type": "burn",
+            "status": "active",
+            "nameTh": "แลกคะแนน  M Point เท่ายอดซื้อ เป็นส่วนลด %",
+            "nameEn": "แลกคะแนน  M Point เท่ายอดซื้อ เป็นส่วนลด %",
+            "createdAt": "2024-07-19T06:56:35.577Z",
+            "updatedAt": "2024-07-19T06:56:35.577Z"
+          }
+        },
+        "campaign": {
+          "id": 15,
+          "name": "Doppio - We Build and Serve Expertise",
+          "status": "active",
+          "startDate": "2024-09-30T17:00:00.000Z",
+          "endDate": "2024-12-30T17:00:00.000Z",
+          "isBurnBeforeEarn": false,
+          "createdBy": 496,
+          "updatedBy": 542,
+          "code": null,
+          "createdAt": "2024-10-06T11:25:49.275Z",
+          "updatedAt": "2024-10-15T09:15:16.919Z"
+        }
+      }
+    ]
+  }
+}
+
+
+
+
+{
+  "message": "success",
+  "data": [
+    {
+      "id": 852,
+      "orderId": 456,
+      "earnPoint": 214,
+      "burnPoint": null,
+      "burnDiscount": null,
+      "saleAmount": 1787.5,
+      "createdBy": null,
+      "createdAt": "2024-10-15T15:35:51.570Z",
+      "updatedAt": "2024-10-15T15:35:51.571Z",
+      "order": {
+        "id": 456,
+        "transactionNo": "241015-000073",
+        "mCardNo": "7102100560014029",
+        "mCardTel": "0855554556",
+        "saleAmount": 2500,
+        "createdBy": 529,
+        "updatedBy": 529,
+        "createdAt": "2024-10-15T15:34:14.219Z",
+        "updatedAt": "2024-10-15T15:34:14.219Z"
+      },
+      "orderTransactions": [
+        {
+          "id": 851,
+          "orderGroupId": 852,
+          "orderBillId": 500,
+          "transactionRunning": "241015-000073-03",
+          "promotionId": 58,
+          "campaignId": 15,
+          "branchId": null,
+          "mechanicId": 1,
+          "mechanicCondition": 25,
+          "mechanicValue": 3,
+          "type": "earn",
+          "exchangeRate": 0.125,
+          "refCardNo": null,
+          "earnPoint": 214,
+          "burnPoint": null,
+          "burnDiscount": null,
+          "remarks": null,
+          "status": "completed",
+          "createdBy": "529",
+          "updatedBy": "529",
+          "createdAt": "2024-10-15T15:35:51.571Z",
+          "updatedAt": "2024-10-15T15:35:51.571Z",
+          "transactionDate": "2024-10-15",
+          "transactionTime": "22:35:51",
+          "orderBill": {
+            "id": 500,
+            "orderTransactionId": null,
+            "orderId": 456,
+            "branchId": 2000,
+            "billNo": "",
+            "refCardNo": null,
+            "saleAmount": 2500,
+            "createdBy": "529",
+            "transactionDate": "2024-10-15",
+            "transactionTime": "22:45:00",
+            "netAmount": 1787.5,
+            "createdAt": "2024-10-15T15:34:14.507Z",
+            "updatedAt": "2024-10-15T15:35:51.564Z",
+            "branch": {
+              "id": 2000,
+              "nameEn": null,
+              "nameTh": null,
+              "brand": {
+                "id": 1298,
+                "nameEn": "QA-Sushi",
+                "nameTh": "QA-ซูชิ"
+              },
+              "mall": {
+                "id": 2,
+                "nameEn": "Paragon",
+                "nameTh": "พารากอน",
+                "code": "11"
+              },
+              "vendorProfile": {
+                "id": 769,
+                "code": "DOP01",
+                "nameTh": "QA-บริษัท ด็อปปิโอ้ ",
+                "nameEn": "QA-Doppio Company ",
+                "taxId": "1122334455667",
+                "paymentType": "net",
+                "isDisplayItem": false,
+                "status": "active",
+                "createdBy": 494,
+                "updatedBy": 494,
+                "createdAt": "2024-10-09T11:26:04.438Z",
+                "updatedAt": "2024-10-09T12:36:51.321Z"
+              }
+            }
+          },
+          "orderSubsidizes": [
+            {
+              "id": 1357,
+              "orderTransactionId": 851,
+              "subsidizeId": 2,
+              "budgetProposalId": 15,
+              "point": 214,
+              "price": 3.21,
+              "subsidizeValue": 3,
+              "createdAt": "2024-10-15T15:35:51.571Z",
+              "updatedAt": "2024-10-15T15:35:51.571Z",
+              "subsidize": {
+                "id": 2,
+                "name": "BU1",
+                "status": "active",
+                "createdBy": 1,
+                "updatedBy": 1,
+                "createdAt": "2024-07-19T09:35:51.867Z",
+                "updatedAt": "2024-07-19T09:35:51.867Z",
+                "code": "bu1",
+                "type": "bu"
+              },
+              "budgetProposal": {
+                "id": 15,
+                "runningNo": "BG240015",
+                "name": "[QA] For QA only",
+                "type": "cca",
+                "budgetNo": "123456789",
+                "proposalNo": "",
+                "amount": 10000000,
+                "remain": 9937140.670000002,
+                "usedBudget": 62859.32999999999,
+                "startDate": "2024-09-30T17:00:00.000Z",
+                "endDate": "2024-12-30T17:00:00.000Z",
+                "status": "active",
+                "createdBy": 496,
+                "updatedBy": 493,
+                "createdAt": "2024-10-09T16:12:46.016Z",
+                "updatedAt": "2024-10-15T03:29:12.619Z"
+              }
+            }
+          ],
+          "orderTransactionLogs": [
+            {
+              "createdAt": "2024-10-15T15:35:52.749Z",
+              "updatedAt": "2024-10-15T15:35:52.749Z",
+              "id": 862,
+              "orderTransactionId": 851,
+              "type": "earn",
+              "rawRequest": {
+                "branch": 11,
+                "vendor": {
+                  "code": "DOP01",
+                  "paymentMethod": "E"
+                },
+                "shopName": "QA-Sushi",
+                "promotion": {
+                  "campaignId": "PM240034",
+                  "campaignName": "[QA][EAx5] PARTNER ทุก 25 บาท รับ 5 M Point",
+                  "isRealtimePointCal": "Y"
+                },
+                "subsidize": {
+                  "mcard": {
+                    "NormalPointTHB": 3.21,
+                    "NormalPercentage": 100
+                  },
+                  "vendor": {
+                    "NormalPointTHB": 0,
+                    "NormalPercentage": 0
+                  }
+                },
+                "saleAmount": 2500,
+                "normalPoint": 214,
+                "ratepointTHB": 0.125,
+                "totalEarnPoint": 214,
+                "transactionDate": "15-10-2024",
+                "transactionTime": "22:35:51",
+                "transactionReferenceNumber": "241015-000073-03"
+              },
+              "rawResponse": {
+                "cardType": "10",
+                "respCode": 201,
+                "receiptNo": "MP24100000620",
+                "mcardNumber": "7102100560014029",
+                "respMessage": "Success",
+                "respDateTime": "2024-10-15T15:35:52+07:00",
+                "cardExpiryDate": "999912",
+                "referenceNumber": "241015-000073-03",
+                "cardPointExpiryAmt": 0,
+                "cardPointBalanceAmt": 1632193,
+                "cardPointExpiryDate": "20241231"
+              },
+              "respDateTime": "2024-10-15T15:35:52+07:00",
+              "respCode": 201,
+              "respMessage": "Success",
+              "receiptNo": "MP24100000620"
+            }
+          ],
+          "orderGwpRelations": [],
+          "promotion": {
+            "id": 58,
+            "priority": 38,
+            "name": "[QA][EAx5] PARTNER ทุก 25 บาท รับ 5 M Point",
+            "type": "earn",
+            "mechanicId": 1,
+            "mechanicCondition": 25,
+            "mechanicValue": 3,
+            "exchangeRate": 0.125,
+            "isMultipleBill": null,
+            "isSpendingPromotion": null,
+            "isSpendingBrand": null,
+            "isSpendingBranch": null,
+            "isSpendingCustomerPromotion": null,
+            "isSpendingCustomerBrand": null,
+            "isSpendingCustomerBranch": null,
+            "isMaxLimitPromotion": null,
+            "isMaxLimitBrand": null,
+            "isMaxLimitBranch": null,
+            "isMaxLimitCustomerPromotion": null,
+            "isMaxLimitCustomerBrand": null,
+            "isMaxLimitCustomerBranch": null,
+            "isLimitPromotion": null,
+            "isLimitBrand": null,
+            "isLimitBranch": null,
+            "isLimitCustomerPromotion": null,
+            "isLimitCustomerBrand": null,
+            "isLimitCustomerBranch": null,
+            "status": "active",
+            "createdBy": null,
+            "updatedBy": 496,
+            "isJoinOther": null,
+            "isNextStep": null,
+            "code": "PM240034",
+            "mCard": [
+              "m_card",
+              "prestige",
+              "premium",
+              "scarlet",
+              "vip"
+            ],
+            "mPower": [
+              "white",
+              "red",
+              "blue",
+              "black"
+            ],
+            "createdAt": "2024-10-09T17:49:11.196Z",
+            "updatedAt": "2024-10-10T03:16:48.610Z",
+            "mechanic": {
+              "id": 1,
+              "type": "earn",
+              "status": "active",
+              "nameTh": "รับคะแนน M Point จากทุกๆ  ยอดซื้อ",
+              "nameEn": "รับคะแนน M Point จากทุกๆ  ยอดซื้อ",
+              "createdAt": "2024-07-19T06:55:29.699Z",
+              "updatedAt": "2024-07-19T06:55:29.700Z"
+            }
+          },
+          "campaign": {
+            "id": 15,
+            "name": "Doppio - We Build and Serve Expertise",
+            "status": "active",
+            "startDate": "2024-09-30T17:00:00.000Z",
+            "endDate": "2024-12-30T17:00:00.000Z",
+            "isBurnBeforeEarn": false,
+            "createdBy": 496,
+            "updatedBy": 542,
+            "code": null,
+            "createdAt": "2024-10-06T11:25:49.275Z",
+            "updatedAt": "2024-10-15T09:15:16.919Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": 853,
+      "orderId": 456,
+      "earnPoint": 143,
+      "burnPoint": null,
+      "burnDiscount": null,
+      "saleAmount": 1787.5,
+      "createdBy": null,
+      "createdAt": "2024-10-15T15:35:52.772Z",
+      "updatedAt": "2024-10-15T15:35:52.772Z",
+      "order": {
+        "id": 456,
+        "transactionNo": "241015-000073",
+        "mCardNo": "7102100560014029",
+        "mCardTel": "0855554556",
+        "saleAmount": 2500,
+        "createdBy": 529,
+        "updatedBy": 529,
+        "createdAt": "2024-10-15T15:34:14.219Z",
+        "updatedAt": "2024-10-15T15:34:14.219Z"
+      },
+      "orderTransactions": [
+        {
+          "id": 852,
+          "orderGroupId": 853,
+          "orderBillId": 500,
+          "transactionRunning": "241015-000073-04",
+          "promotionId": 59,
+          "campaignId": 15,
+          "branchId": null,
+          "mechanicId": 1,
+          "mechanicCondition": 25,
+          "mechanicValue": 2,
+          "type": "earn",
+          "exchangeRate": 0.125,
+          "refCardNo": null,
+          "earnPoint": 143,
+          "burnPoint": null,
+          "burnDiscount": null,
+          "remarks": null,
+          "status": "completed",
+          "createdBy": "529",
+          "updatedBy": "529",
+          "createdAt": "2024-10-15T15:35:52.772Z",
+          "updatedAt": "2024-10-15T15:35:52.772Z",
+          "transactionDate": "2024-10-15",
+          "transactionTime": "22:35:52",
+          "orderBill": {
+            "id": 500,
+            "orderTransactionId": null,
+            "orderId": 456,
+            "branchId": 2000,
+            "billNo": "",
+            "refCardNo": null,
+            "saleAmount": 2500,
+            "createdBy": "529",
+            "transactionDate": "2024-10-15",
+            "transactionTime": "22:45:00",
+            "netAmount": 1787.5,
+            "createdAt": "2024-10-15T15:34:14.507Z",
+            "updatedAt": "2024-10-15T15:35:52.766Z",
+            "branch": {
+              "id": 2000,
+              "nameEn": null,
+              "nameTh": null,
+              "brand": {
+                "id": 1298,
+                "nameEn": "QA-Sushi",
+                "nameTh": "QA-ซูชิ"
+              },
+              "mall": {
+                "id": 2,
+                "nameEn": "Paragon",
+                "nameTh": "พารากอน",
+                "code": "11"
+              },
+              "vendorProfile": {
+                "id": 769,
+                "code": "DOP01",
+                "nameTh": "QA-บริษัท ด็อปปิโอ้ ",
+                "nameEn": "QA-Doppio Company ",
+                "taxId": "1122334455667",
+                "paymentType": "net",
+                "isDisplayItem": false,
+                "status": "active",
+                "createdBy": 494,
+                "updatedBy": 494,
+                "createdAt": "2024-10-09T11:26:04.438Z",
+                "updatedAt": "2024-10-09T12:36:51.321Z"
+              }
+            }
+          },
+          "orderSubsidizes": [
+            {
+              "id": 1359,
+              "orderTransactionId": 852,
+              "subsidizeId": 2,
+              "budgetProposalId": 15,
+              "point": 143,
+              "price": 0.72,
+              "subsidizeValue": 1,
+              "createdAt": "2024-10-15T15:35:52.772Z",
+              "updatedAt": "2024-10-15T15:35:52.772Z",
+              "subsidize": {
+                "id": 2,
+                "name": "BU1",
+                "status": "active",
+                "createdBy": 1,
+                "updatedBy": 1,
+                "createdAt": "2024-07-19T09:35:51.867Z",
+                "updatedAt": "2024-07-19T09:35:51.867Z",
+                "code": "bu1",
+                "type": "bu"
+              },
+              "budgetProposal": {
+                "id": 15,
+                "runningNo": "BG240015",
+                "name": "[QA] For QA only",
+                "type": "cca",
+                "budgetNo": "123456789",
+                "proposalNo": "",
+                "amount": 10000000,
+                "remain": 9937136.020000001,
+                "usedBudget": 62863.97999999999,
+                "startDate": "2024-09-30T17:00:00.000Z",
+                "endDate": "2024-12-30T17:00:00.000Z",
+                "status": "active",
+                "createdBy": 496,
+                "updatedBy": 493,
+                "createdAt": "2024-10-09T16:12:46.016Z",
+                "updatedAt": "2024-10-15T03:29:12.619Z"
+              }
+            },
+            {
+              "id": 1358,
+              "orderTransactionId": 852,
+              "subsidizeId": 4,
+              "budgetProposalId": 15,
+              "point": 143,
+              "price": 0.72,
+              "subsidizeValue": 1,
+              "createdAt": "2024-10-15T15:35:52.772Z",
+              "updatedAt": "2024-10-15T15:35:52.772Z",
+              "subsidize": {
+                "id": 4,
+                "name": "Vendor",
+                "status": "active",
+                "createdBy": 1,
+                "updatedBy": 1,
+                "createdAt": "2024-07-19T09:36:04.788Z",
+                "updatedAt": "2024-07-19T09:36:19.261Z",
+                "code": "vendor",
+                "type": "vendor"
+              },
+              "budgetProposal": {
+                "id": 15,
+                "runningNo": "BG240015",
+                "name": "[QA] For QA only",
+                "type": "cca",
+                "budgetNo": "123456789",
+                "proposalNo": "",
+                "amount": 10000000,
+                "remain": 9937136.020000001,
+                "usedBudget": 62863.97999999999,
+                "startDate": "2024-09-30T17:00:00.000Z",
+                "endDate": "2024-12-30T17:00:00.000Z",
+                "status": "active",
+                "createdBy": 496,
+                "updatedBy": 493,
+                "createdAt": "2024-10-09T16:12:46.016Z",
+                "updatedAt": "2024-10-15T03:29:12.619Z"
+              }
+            }
+          ],
+          "orderTransactionLogs": [
+            {
+              "createdAt": "2024-10-15T15:35:54.036Z",
+              "updatedAt": "2024-10-15T15:35:54.036Z",
+              "id": 863,
+              "orderTransactionId": 852,
+              "type": "earn",
+              "rawRequest": {
+                "branch": 11,
+                "vendor": {
+                  "code": "DOP01",
+                  "paymentMethod": "E"
+                },
+                "shopName": "QA-Sushi",
+                "promotion": {
+                  "campaignId": "PM240035",
+                  "campaignName": "[QA][EAx2] PARTNER_SHOPPING สายเปย์เทพ้อย ทุก 25 บาท รับ 2 M Point",
+                  "isRealtimePointCal": "Y"
+                },
+                "subsidize": {
+                  "mcard": {
+                    "NormalPointTHB": 0.72,
+                    "NormalPercentage": 50
+                  },
+                  "vendor": {
+                    "NormalPointTHB": 0.72,
+                    "NormalPercentage": 50
+                  }
+                },
+                "saleAmount": 2500,
+                "normalPoint": 143,
+                "ratepointTHB": 0.125,
+                "totalEarnPoint": 143,
+                "transactionDate": "15-10-2024",
+                "transactionTime": "22:35:52",
+                "transactionReferenceNumber": "241015-000073-04"
+              },
+              "rawResponse": {
+                "cardType": "10",
+                "respCode": 201,
+                "receiptNo": "MP24100000621",
+                "mcardNumber": "7102100560014029",
+                "respMessage": "Success",
+                "respDateTime": "2024-10-15T15:35:54+07:00",
+                "cardExpiryDate": "999912",
+                "referenceNumber": "241015-000073-04",
+                "cardPointExpiryAmt": 0,
+                "cardPointBalanceAmt": 1632122,
+                "cardPointExpiryDate": "20241231"
+              },
+              "respDateTime": "2024-10-15T15:35:54+07:00",
+              "respCode": 201,
+              "respMessage": "Success",
+              "receiptNo": "MP24100000621"
+            }
+          ],
+          "orderGwpRelations": [],
+          "promotion": {
+            "id": 59,
+            "priority": 39,
+            "name": "[QA][EAx2] PARTNER_SHOPPING สายเปย์เทพ้อย ทุก 25 บาท รับ 2 M Point",
+            "type": "earn",
+            "mechanicId": 1,
+            "mechanicCondition": 25,
+            "mechanicValue": 2,
+            "exchangeRate": 0.125,
+            "isMultipleBill": null,
+            "isSpendingPromotion": null,
+            "isSpendingBrand": null,
+            "isSpendingBranch": null,
+            "isSpendingCustomerPromotion": null,
+            "isSpendingCustomerBrand": null,
+            "isSpendingCustomerBranch": null,
+            "isMaxLimitPromotion": null,
+            "isMaxLimitBrand": null,
+            "isMaxLimitBranch": null,
+            "isMaxLimitCustomerPromotion": null,
+            "isMaxLimitCustomerBrand": null,
+            "isMaxLimitCustomerBranch": null,
+            "isLimitPromotion": null,
+            "isLimitBrand": null,
+            "isLimitBranch": null,
+            "isLimitCustomerPromotion": null,
+            "isLimitCustomerBrand": null,
+            "isLimitCustomerBranch": null,
+            "status": "active",
+            "createdBy": null,
+            "updatedBy": 496,
+            "isJoinOther": null,
+            "isNextStep": null,
+            "code": "PM240035",
+            "mCard": [
+              "m_card",
+              "prestige",
+              "premium",
+              "scarlet",
+              "vip"
+            ],
+            "mPower": [
+              "white",
+              "red",
+              "blue",
+              "black"
+            ],
+            "createdAt": "2024-10-09T17:52:15.520Z",
+            "updatedAt": "2024-10-10T03:16:48.716Z",
+            "mechanic": {
+              "id": 1,
+              "type": "earn",
+              "status": "active",
+              "nameTh": "รับคะแนน M Point จากทุกๆ  ยอดซื้อ",
+              "nameEn": "รับคะแนน M Point จากทุกๆ  ยอดซื้อ",
+              "createdAt": "2024-07-19T06:55:29.699Z",
+              "updatedAt": "2024-07-19T06:55:29.700Z"
+            }
+          },
+          "campaign": {
+            "id": 15,
+            "name": "Doppio - We Build and Serve Expertise",
+            "status": "active",
+            "startDate": "2024-09-30T17:00:00.000Z",
+            "endDate": "2024-12-30T17:00:00.000Z",
+            "isBurnBeforeEarn": false,
+            "createdBy": 496,
+            "updatedBy": 542,
+            "code": null,
+            "createdAt": "2024-10-06T11:25:49.275Z",
+            "updatedAt": "2024-10-15T09:15:16.919Z"
+          }
+        }
+      ]
+    }
+  ]
+}
